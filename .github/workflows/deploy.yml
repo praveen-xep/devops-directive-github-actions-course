@@ -3,7 +3,7 @@ name: build
 on:
   push:
     branches:
-      - xep-web-2.0-CI/CD-pipeline-Test
+      - test_branch_for_workflow
   workflow_dispatch:
     inputs:
       reason:
